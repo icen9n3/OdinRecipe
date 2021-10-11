@@ -1,0 +1,49 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    border-bottom: 3px solid black;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+.recipe {
+    display:flex;
+    align-items: center;
+    
+}
+
+.photo{
+    height:1000px;
+    padding-top:25px;
+   
+}
+
+.description {
+    border: 1px solid black;
+    width:1000px;
+    padding: 15px;
+    margin: 15px 0px 15px 0px;
+}
+
+.directions {
+    flex-shrink: 15;
+    margin: 50px 25% 0px 100px;
+    width:700px;
+    
+}
+
+.ingredients{
+    border: 1px solid black
+}
+
+.note {
+    font-size: 15px;
+    width:400px;
+    align-self: flex-start;
+    margin-left: 25px;
+}
