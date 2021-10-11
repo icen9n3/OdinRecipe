@@ -1,8 +1,18 @@
 body{
     display:flex;
+    justify-content: center;  
+    background-color: mistyrose;
+}
+
+.mainContainer {  display:flex;
     flex-direction: column;
     align-items: center;
+    border-radius: 30px;
+   
+    background-color: white;
+
 }
+
 h1{
     border-bottom: 3px solid black;
 }
@@ -18,8 +28,9 @@ h2 {
 }
 
 .photo{
-    height:1000px;
+    height:800px;
     padding-top:25px;
+    max-width:1200px;
    
 }
 
@@ -27,7 +38,8 @@ h2 {
     border: 1px solid black;
     width:1000px;
     padding: 15px;
-    margin: 15px 0px 15px 0px;
+    margin: 35px 0px 25px 0px;
+    /* background-color: lightsalmon */
 }
 
 .directions {
@@ -38,7 +50,9 @@ h2 {
 }
 
 .ingredients{
-    border: 1px solid black
+    border: 1px solid black;
+    /* background-color: lightcyan */
+    margin-left: 15px;
 }
 
 .note {
@@ -46,4 +60,15 @@ h2 {
     width:400px;
     align-self: flex-start;
     margin-left: 25px;
+}
+
+.recipeList {
+    display:flex;
+    gap:25px;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 100px;
+    border-radius: 30px;
+    margin-top:50px;
+
 }
